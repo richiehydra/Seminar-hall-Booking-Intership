@@ -2,7 +2,7 @@ const details = require('../routes/constants');
 const mongoose = require('mongoose');
 // mongodb+srv://mohantyrohan:<password>@cluster0.llzjwsh.mongodb.net/?retryWrites=true&w=majority
 // mongodb://localhost:27017/seminar_hall_DB
-mongoose.connect(`mongodb+srv://admin:admin%40123@ineuron.27bcfz3.mongodb.net/`,{
+mongoose.connect(`mongodb+srv://admin:{Password}@ineuron.27bcfz3.mongodb.net/`,{
     // family: 4 // Uses Ipv4
 });
 
