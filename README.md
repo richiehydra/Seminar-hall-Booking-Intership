@@ -10,18 +10,20 @@ track of all the facts about the booking's approval, rejection, or amendment. It
 track of all the details regarding the seminar room. Production of the report: It creates a
 report on the status and history of seminar halls
 
-#BACKEND SETUP
+# FRONTEND SETUP
+
 STEP 1: Provide Mongodb url In Config/mongoose.js
 STEP 2: Navigate to Seminar-Hall-Internship/backend
 STEP 3: Install Dependencies through npm install
 STEP 4: Run server using node index.js
 
-#FRONTEND SETUP
+# BACKEND SETUP
 
 STEP 1:Navigate to Seminar-hall-Booking-Internship/frontend
 STEP 2: Install Dependencies through npm install 
 STEP 3: Run npm run start
 
-#Credentials
+# CREDENTIALS
+
 Admin- admin@gmail.com  Password-1234
 Sample department- poojarii018@gmail.com Password-ise
