@@ -1,29 +1,58 @@
+# Seminar Hall Booking System
 
-# SEMINAR HALL BOOKING SYSTEM
+## Overview
 
-The major goal of the Seminar Hall Booking System is to keep track of all seminar hall
-booking dates, history, and availability for all departments. The project is completely
-restricted at the administrative level, and department members can only request access
-from the administrator, who will guarantee it. The goal of the project is to create a
-mobile app that will reduce manual labor in managing seminar room bookings. It keeps
-track of all the facts about the booking's approval, rejection, or amendment. It keeps
-track of all the details regarding the seminar room. Production of the report: It creates a
-report on the status and history of seminar halls
+The Seminar Hall Booking System is designed to streamline the management of seminar hall bookings, providing a user-friendly experience for both administrators and department members. This system aims to automate the process, reducing manual efforts and ensuring efficient tracking of booking details, approvals, rejections, and amendments.
 
-# FRONTEND SETUP
+## Features
 
-STEP 1: Provide Mongodb url In Config/mongoose.js
-STEP 2: Navigate to Seminar-Hall-Internship/backend
-STEP 3: Install Dependencies through npm install
-STEP 4: Run server using node index.js
+- **Administrative Control:** The system is administered at an administrative level, with the administrator having the authority to grant access to department members.
+  
+- **Request Mechanism:** Department members can request access to seminar halls through the app, and the administrator can approve or reject these requests.
 
-# BACKEND SETUP
+- **History Tracking:** The system maintains a comprehensive history of seminar hall bookings, including approval status and any modifications made.
 
-STEP 1:Navigate to Seminar-hall-Booking-Internship/frontend
-STEP 2: Install Dependencies through npm install 
-STEP 3: Run npm run start
+- **Availability Tracking:** Real-time tracking of seminar hall availability to prevent conflicts and ensure efficient scheduling.
 
-# CREDENTIALS
+- **Reporting:** The system generates reports on the status and history of seminar halls, providing valuable insights for administrators.
 
-Admin- admin@gmail.com  Password-1234
-Sample department- poojarii018@gmail.com Password-ise
+## Frontend Setup
+
+### Step 1: Configure MongoDB
+Provide the MongoDB URL in `Config/mongoose.js`.
+
+### Step 2: Navigate to Backend
+Navigate to `Seminar-Hall-Internship/backend` in your terminal.
+
+### Step 3: Install Dependencies
+Run `npm install` to install the required dependencies.
+
+### Step 4: Run Server
+Start the server using `node index.js`.
+
+## Backend Setup
+
+### Step 1: Navigate to Frontend
+Navigate to `Seminar-hall-Booking-Internship/frontend` in your terminal.
+
+### Step 2: Install Dependencies
+Run `npm install` to install the necessary frontend dependencies.
+
+### Step 3: Run the App
+Launch the app with `npm run start`.
+
+## Credentials
+
+- **Admin:**
+  - Email: admin@gmail.com
+  - Password: 1234
+
+- **Sample Department:**
+  - Email: poojarii018@gmail.com
+  - Password: ise
+
+## GitHub Readme
+
+For a detailed guide and version-specific information, please refer to the documentation provided in the respective `README.md` files in the frontend and backend directories.
+
+Feel free to contribute, report issues, or suggest improvements. Your feedback is highly appreciated!
