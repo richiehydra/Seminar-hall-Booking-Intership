@@ -1,5 +1,5 @@
 
-var SERVER_URL='https://seminar.rohankm.online'
+var SERVER_URL='SERVER_HOSTED_URL'
 
 
 export default SERVER_URL;
